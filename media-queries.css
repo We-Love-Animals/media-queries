@@ -3,7 +3,8 @@
     font-family: sans-serif;
 }
 body {
-    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .alert-info {
     display: flex;
@@ -29,13 +30,15 @@ ul {
     display: flex;
     flex-direction: column;
 }
+.nav-links {
+
+}
 nav a {
     background: #CCCCCC;
     text-decoration: underline;
     display: flex;
     justify-content: center;
     padding: 1em;
-    width: 339px;
     height: 4.5em;
     margin: auto;
     border-bottom: 20px solid white;
@@ -83,7 +86,39 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
+    * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
     body {
         line-height: 1.4;
     }
+    .alert-info{
+        display: none;
+    }
+    h1 {
+        font-weight: bold;
+        text-align: left;
+        padding: 1em;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    nav a {
+        background: none;
+        text-decoration: underline;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 890px;
+        height: 385px;
+    }
+
+
 }
