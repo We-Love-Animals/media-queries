@@ -1,0 +1,31 @@
+.alert-info {
+    display: flex;
+    background-color: #B5FEFE;
+    text-align: center;
+
+}
+nav {
+    flex-direction: column;
+    background-color: #CCCC;
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+.nav-links {
+    list-style: none;
+}
+#main {
+    font-weight: bold;
+    font-size: 24px;
+    width: 339px;
+    height: 224px;
+    padding-bottom: 5em;
+}
+.sub-section {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+    width: 339px;
+    height: 224px;
+}
